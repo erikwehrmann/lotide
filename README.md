@@ -33,4 +33,6 @@ The following functions are currently implemented:
 * `countOnly(allItems, itemsToCount)`: takes array of items and object defining the items you want to count and returns a list contains the counted items.
 * `letterPositions(str)`: takes a string and returns an object listing the position of each letter.
 * `findKeyByValue(obj, val)`: takes an object and a value and finds the key that value belongs to.
+* `eqArrays(arr1, arr2)`: returns true if arr1 = arr2; returns false if arr1 =/= arr2.
+* `eqObjects(obj1, obj2)`: returns true if obj1 = obj2; returns false if obj1 =/= obj2.
 
