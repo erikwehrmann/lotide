@@ -32,4 +32,5 @@ The following functions are currently implemented:
 * `flatten(arr)`: returns a non-nested array.
 * `countOnly(allItems, itemsToCount)`: takes array of items and object defining the items you want to count and returns a list contains the counted items.
 * `letterPositions(str)`: takes a string and returns an object listing the position of each letter.
+* `findKeyByValue(obj, val)`: takes an object and a value and finds the key that value belongs to.
 
