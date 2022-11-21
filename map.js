@@ -15,15 +15,25 @@ const assertArraysEqual = function(a, b) {
   }
 }
 
-const map = function(array, callback) {
-  const results =[];
-  for (let item of array) {
-    results.push(callback(item));
-  }
-  return results;
-}
+// const map = function(array, callback) {
+//   const results =[];
+//   for (let item of array) {
+//     results.push(callback(item));
+//   }
+//   return results;
+// }
 
 const words = ["ground", "control", "to", "major", "tom"];
-const results1 = map(words, word => word[0]);
-assertArraysEqual((results1), ['g', 'c', 't', 'm', 't']);
+// const results1 = map(words, word => word[0]);
+// assertArraysEqual((results1), ['g', 'c', 't', 'm', 't']);
+//console.log(map(words, word => word.length))
 
+const map = function(array, callback) {
+  const mappedArray = []
+  array.forEach(element => {
+    mappedArray.push(callback(element));
+  });
+  return mappedArray;
+}
+
+console.log(map(words, word => word.length));
