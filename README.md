@@ -29,4 +29,6 @@ The following functions are currently implemented:
 * `head(arr)`: returns the first (head) index of an array.
 * `tail(arr)`: returns the last indexes (tail) of an array.
 * `middle(arr)`: returns the middle index(es) of an array.
-* `flatten(arr)` : returns a non-nested array.
+* `flatten(arr)`: returns a non-nested array.
+* `countOnly(allItems, itemsToCount)`: takes array of items and object defining the items you want to count and returns a list contains the counted items.
+
