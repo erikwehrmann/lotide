@@ -13,4 +13,4 @@ const assertArraysEqual = function(a, b) {
   } else if (eqArrays(a, b) === false) {
     console.log(`🛑🛑🛑 Assertion Failed: ${a} = ${b}`);
   }
-};
+}
