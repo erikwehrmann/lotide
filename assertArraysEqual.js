@@ -7,3 +7,5 @@ const assertArraysEqual = function(a, b) {
     console.log(`🛑🛑🛑 Assertion Failed: ${a} = ${b}`);
   }
 }
+
+module.exports = assertArraysEqual;
