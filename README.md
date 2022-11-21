@@ -31,4 +31,5 @@ The following functions are currently implemented:
 * `middle(arr)`: returns the middle index(es) of an array.
 * `flatten(arr)`: returns a non-nested array.
 * `countOnly(allItems, itemsToCount)`: takes array of items and object defining the items you want to count and returns a list contains the counted items.
+* `letterPositions(str)`: takes a string and returns an object listing the position of each letter.
 
